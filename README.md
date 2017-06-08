@@ -30,7 +30,8 @@ Split the dataset into training and testing dataset with 80% for training and 20
 
 Started with the logistic regression model as a simple baseline. Then experimented with a random forest model and a k-nearst neighbors model.
 
-*Table 1. Model evaluation.*  
+**Table 1. Model evaluation.**
+
 | Models                             |    Accuracy   |     Recall    |
 | ---------------------------------- |:-------------:|:-------------:|
 | Logistic regression model          |      0.792    |     0.365     |
@@ -44,11 +45,11 @@ Further investigation on ‘satisfaction_level’ of departed employees reveals 
 
 ![alt text](https://github.com/haowei772/Employee-departure-prediction/blob/master/figures/high_risk_employees.png)
 
- *Group A* consists of employees with high ‘last_evaluation’, high ‘number_project’, and very low ‘satisfaction_level’. It is noticeable that employees with number of projects beyond 5 have very low satisfaction scores.These are the senior/experienced employees that carry out high number of projects (6 to 7) but have very low satisfaction, and tend to leave the company. This group should be the target for the company to retain with highest priority.  
+ **Group A** consists of employees with high ‘last_evaluation’, high ‘number_project’, and very low ‘satisfaction_level’. It is noticeable that employees with number of projects beyond 5 have very low satisfaction scores.These are the senior/experienced employees that carry out high number of projects (6 to 7) but have very low satisfaction, and tend to leave the company. This group should be the target for the company to retain with highest priority.  
 
- *Group B* consists of employees with low ‘last_evaluation’, low ‘number_project’ (mostly 2 projects), and medium ‘satisfaction_level’. These employees have relative low performance with medium level of satisfaction and the company should target this group to increase their performance and satisfaction.  
+ **Group B** consists of employees with low ‘last_evaluation’, low ‘number_project’ (mostly 2 projects), and medium ‘satisfaction_level’. These employees have relative low performance with medium level of satisfaction and the company should target this group to increase their performance and satisfaction.  
 
- *Group C* consists of employees with high ‘last_evaluation’, medium ‘number_project’ (4 to 5 projects), and high ‘satisfaction_level’.  These are highly performing and satisfied employees, but they leave the company for unidentified reasons.There is relatively little that the company can do to retain them.
+ **Group C** consists of employees with high ‘last_evaluation’, medium ‘number_project’ (4 to 5 projects), and high ‘satisfaction_level’.  These are highly performing and satisfied employees, but they leave the company for unidentified reasons.There is relatively little that the company can do to retain them.
 
 ## Phase II: Migrate the random forest model to Databricks Spark platform.  
 (Project has been done, and the summary is to be finished)
