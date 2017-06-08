@@ -30,7 +30,7 @@ Split the dataset into training and testing dataset with 80% for training and 20
 
 Started with the logistic regression model as a simple baseline. Then experimented with a random forest model and a k-nearst neighbors model.
 
-*Table 1. Model evaluation.*
+*Table 1. Model evaluation.*  
 | Models                             |    Accuracy   |     Recall    |
 | ---------------------------------- |:-------------:|:-------------:|
 | Logistic regression model          |      0.792    |     0.365     |
@@ -51,3 +51,4 @@ Further investigation on ‘satisfaction_level’ of departed employees reveals 
  *Group C* consists of employees with high ‘last_evaluation’, medium ‘number_project’ (4 to 5 projects), and high ‘satisfaction_level’.  These are highly performing and satisfied employees, but they leave the company for unidentified reasons.There is relatively little that the company can do to retain them.
 
 ## Phase II: Migrate the random forest model to Databricks Spark platform.  
+(Project has been done, and the summary is to be finished)
